@@ -1,0 +1,34 @@
+# put here your custom config value
+menu "Example Configuration"
+config TCP_PERF_WIFI_SSID
+    string "WiFi SSID"
+    default "speech_phicomm"
+    help
+	SSID (network name) for the example to connect to.
+
+config TCP_PERF_WIFI_PASSWORD
+    string "WiFi Password"
+    default "123456789"
+    help
+	WiFi password (WPA or WPA2) for the example to use.
+
+endmenu
+
+
+menu "Hardware Board Version"
+
+choice HARDWARE_BOARD
+    prompt "hardware Board"
+    default DU1906_MODULE
+    help
+        Select an hardware board version
+
+config DU1906_MODULE
+    bool "du1906 module"
+
+config CUPID_BOARD_V2
+    bool "cupid board v2"
+
+endchoice
+
+endmenu

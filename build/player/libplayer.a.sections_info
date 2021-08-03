@@ -1,0 +1,124 @@
+In archive /home/mars/git/x6bc_gitlab/mic_test/x6_mic_factory_test/build/player/libplayer.a:
+
+bds_player.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.dac_write_zero_data 00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.tas5805m_init_task 0000000c  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.duer_audio_dac_backup_parameter 00000018  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.duer_audio_dac_restore_parameter 00000018  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.duer_audio_dac_start_play 0000001c  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.duer_audio_dac_write 00000034  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.duer_audio_dac_pause_play 00000004  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.duer_audio_dac_wait_play_end 00000008  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.duer_audio_dac_load_driver 00000078  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.duer_audio_dac_unload_driver 00000014  00000000  00000000  0000015c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.duer_audio_dac_get_volume 00000014  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.duer_audio_dac_set_volume 0000000c  00000000  00000000  00000184  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.duer_audio_dac_adj_volume 0000000c  00000000  00000000  00000190  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text         00000000  00000000  00000000  0000019c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .data         00000000  00000000  00000000  0000019c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 15 .bss          00000000  00000000  00000000  0000019c  2**0
+                  ALLOC
+ 16 .rodata.str1.1 00000160  00000000  00000000  0000019c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 17 .text.dac_write_zero_data 00000042  00000000  00000000  000002fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.tas5805m_init_task 0000001a  00000000  00000000  00000340  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.duer_audio_dac_backup_parameter 00000035  00000000  00000000  0000035c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.duer_audio_dac_restore_parameter 00000035  00000000  00000000  00000394  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.duer_audio_dac_start_play 00000044  00000000  00000000  000003cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.duer_audio_dac_write 00000094  00000000  00000000  00000410  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.duer_audio_dac_pause_play 0000000d  00000000  00000000  000004a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.duer_audio_dac_release_play 00000007  00000000  00000000  000004b4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 25 .text.duer_audio_dac_stop_play 00000007  00000000  00000000  000004bc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 26 .text.duer_audio_dac_wait_play_end 00000015  00000000  00000000  000004c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .rodata       00000010  00000000  00000000  000004dc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .text.duer_audio_dac_load_driver 0000013f  00000000  00000000  000004ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.duer_audio_dac_unload_driver 00000039  00000000  00000000  0000062c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.duer_audio_dac_get_volume 0000004a  00000000  00000000  00000668  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.duer_audio_dac_set_volume 00000036  00000000  00000000  000006b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.duer_audio_dac_adj_volume 00000013  00000000  00000000  000006ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.duer_audio_adc_set_pwr 00000007  00000000  00000000  00000700  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 34 .rodata.__func__$6668 0000001a  00000000  00000000  00000707  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 35 .rodata.__func__$6658 0000001a  00000000  00000000  00000721  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 36 .rodata.__func__$6641 0000001b  00000000  00000000  0000073b  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 37 .rodata.g_vol_tbl 0000002a  00000000  00000000  00000756  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 38 .bss.s_resample 00000030  00000000  00000000  00000780  2**2
+                  ALLOC
+ 39 .bss.output_buf_32 00000004  00000000  00000000  00000780  2**2
+                  ALLOC
+ 40 .bss.output_buf_16 00000004  00000000  00000000  00000780  2**2
+                  ALLOC
+ 41 .bss.s_backup_bits_per_sample 00000004  00000000  00000000  00000780  2**2
+                  ALLOC
+ 42 .bss.s_backup_sample_rate 00000004  00000000  00000000  00000780  2**2
+                  ALLOC
+ 43 .data.s_backup_channel 00000004  00000000  00000000  00000780  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 44 .bss.s_bits_per_sample 00000004  00000000  00000000  00000784  2**2
+                  ALLOC
+ 45 .bss.s_sample_rate 00000004  00000000  00000000  00000784  2**2
+                  ALLOC
+ 46 .data.s_channel 00000004  00000000  00000000  00000784  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 47 .debug_frame  00000190  00000000  00000000  00000788  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 48 .debug_info   00000cf6  00000000  00000000  00000918  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 49 .debug_abbrev 00000371  00000000  00000000  0000160e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 50 .debug_loc    000003b5  00000000  00000000  0000197f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 51 .debug_aranges 00000090  00000000  00000000  00001d34  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 52 .debug_ranges 000000b0  00000000  00000000  00001dc4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 53 .debug_line   0000089d  00000000  00000000  00001e74  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 54 .debug_str    0000099e  00000000  00000000  00002711  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 55 .comment      0000003b  00000000  00000000  000030af  2**0
+                  CONTENTS, READONLY
+ 56 .xtensa.info  00000038  00000000  00000000  000030ea  2**0
+                  CONTENTS, READONLY
+ 57 .xt.lit       00000068  00000000  00000000  00003122  2**0
+                  CONTENTS, RELOC, READONLY
+ 58 .xt.prop      000004a4  00000000  00000000  0000318a  2**0
+                  CONTENTS, RELOC, READONLY
